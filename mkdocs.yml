@@ -1,1 +1,8 @@
 site_name: My Docs
+
+plugins:
+  - blog
+
+nav:
+  - Blog:
+    - blog/index.md
