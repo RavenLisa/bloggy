@@ -4,6 +4,7 @@ plugins:
   - blog
 
 nav:
+  - Home: index.md
   - Blog:
     - blog/index.md
 
@@ -28,3 +29,6 @@ theme:
            name: Switch to dark mode
          primary: blue
          accent: deep orange
+    features:
+      - navigation.tabs
+      - navigation.footer
