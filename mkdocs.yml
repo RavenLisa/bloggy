@@ -6,3 +6,25 @@ plugins:
 nav:
   - Blog:
     - blog/index.md
+
+theme:
+    icon:
+      repo: fontawesome/brands/discord
+    language: en
+    name: material
+    font:
+      text: Roboto
+      code: JetBrains Mono
+    palette:
+      -  scheme: slate
+         toggle:
+           icon: material/weather-sunny
+           name: Switch to light mode
+         primary: black
+         accent: purple
+      -  scheme: default
+         toggle:
+           icon: material/weather-night
+           name: Switch to dark mode
+         primary: blue
+         accent: deep orange
